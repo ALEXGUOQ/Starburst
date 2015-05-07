@@ -55,3 +55,6 @@ For example, if you want to use the disperse animation, set your image file to: 
 
 Then set its respective duration, as recommended above.
 
+##License
+Starburst is available under the MIT license.
+
