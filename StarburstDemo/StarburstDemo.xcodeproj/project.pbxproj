@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B890D8F11AFBF52200D7BA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890D8F01AFBF52200D7BA8F /* AppDelegate.swift */; };
+		B890D8F31AFBF52200D7BA8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890D8F21AFBF52200D7BA8F /* ViewController.swift */; };
+		B890D8F61AFBF52200D7BA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B890D8F41AFBF52200D7BA8F /* Main.storyboard */; };
+		B890D8F81AFBF52200D7BA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B890D8F71AFBF52200D7BA8F /* Images.xcassets */; };
+		B890D8FB1AFBF52200D7BA8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B890D8F91AFBF52200D7BA8F /* LaunchScreen.xib */; };
+		B890D9071AFBF52200D7BA8F /* StarburstDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890D9061AFBF52200D7BA8F /* StarburstDemoTests.swift */; };
+		B890D9191AFBF53B00D7BA8F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890D9181AFBF53B00D7BA8F /* InterfaceController.swift */; };
+		B890D91B1AFBF53B00D7BA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B890D91A1AFBF53B00D7BA8F /* Images.xcassets */; };
+		B890D91F1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B890D91E1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app */; };
+		B890D9271AFBF53B00D7BA8F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B890D9251AFBF53B00D7BA8F /* Interface.storyboard */; };
+		B890D9291AFBF53B00D7BA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B890D9281AFBF53B00D7BA8F /* Images.xcassets */; };
+		B890D92C1AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B890D9141AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B890D9011AFBF52200D7BA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B890D8E31AFBF52200D7BA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B890D8EA1AFBF52200D7BA8F;
+			remoteInfo = StarburstDemo;
+		};
+		B890D9201AFBF53B00D7BA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B890D8E31AFBF52200D7BA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B890D91D1AFBF53B00D7BA8F;
+			remoteInfo = "StarburstDemo WatchKit App";
+		};
+		B890D92A1AFBF53B00D7BA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B890D8E31AFBF52200D7BA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B890D9131AFBF53B00D7BA8F;
+			remoteInfo = "StarburstDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B890D9331AFBF53B00D7BA8F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B890D92C1AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B890D8EB1AFBF52200D7BA8F /* StarburstDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarburstDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B890D8EF1AFBF52200D7BA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B890D8F01AFBF52200D7BA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B890D8F21AFBF52200D7BA8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B890D8F51AFBF52200D7BA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B890D8F71AFBF52200D7BA8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B890D8FA1AFBF52200D7BA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B890D9001AFBF52200D7BA8F /* StarburstDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarburstDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B890D9051AFBF52200D7BA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B890D9061AFBF52200D7BA8F /* StarburstDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarburstDemoTests.swift; sourceTree = "<group>"; };
+		B890D9141AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StarburstDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B890D9171AFBF53B00D7BA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B890D9181AFBF53B00D7BA8F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B890D91A1AFBF53B00D7BA8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B890D91E1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarburstDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B890D9241AFBF53B00D7BA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B890D9261AFBF53B00D7BA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B890D9281AFBF53B00D7BA8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B890D8E81AFBF52200D7BA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D8FD1AFBF52200D7BA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D9111AFBF53B00D7BA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B890D8E21AFBF52200D7BA8F = {
+			isa = PBXGroup;
+			children = (
+				B890D8ED1AFBF52200D7BA8F /* StarburstDemo */,
+				B890D9031AFBF52200D7BA8F /* StarburstDemoTests */,
+				B890D9151AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension */,
+				B890D9221AFBF53B00D7BA8F /* StarburstDemo WatchKit App */,
+				B890D8EC1AFBF52200D7BA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B890D8EC1AFBF52200D7BA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B890D8EB1AFBF52200D7BA8F /* StarburstDemo.app */,
+				B890D9001AFBF52200D7BA8F /* StarburstDemoTests.xctest */,
+				B890D9141AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex */,
+				B890D91E1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B890D8ED1AFBF52200D7BA8F /* StarburstDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B890D8F01AFBF52200D7BA8F /* AppDelegate.swift */,
+				B890D8F21AFBF52200D7BA8F /* ViewController.swift */,
+				B890D8F41AFBF52200D7BA8F /* Main.storyboard */,
+				B890D8F71AFBF52200D7BA8F /* Images.xcassets */,
+				B890D8F91AFBF52200D7BA8F /* LaunchScreen.xib */,
+				B890D8EE1AFBF52200D7BA8F /* Supporting Files */,
+			);
+			path = StarburstDemo;
+			sourceTree = "<group>";
+		};
+		B890D8EE1AFBF52200D7BA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B890D8EF1AFBF52200D7BA8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B890D9031AFBF52200D7BA8F /* StarburstDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9061AFBF52200D7BA8F /* StarburstDemoTests.swift */,
+				B890D9041AFBF52200D7BA8F /* Supporting Files */,
+			);
+			path = StarburstDemoTests;
+			sourceTree = "<group>";
+		};
+		B890D9041AFBF52200D7BA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9051AFBF52200D7BA8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B890D9151AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9181AFBF53B00D7BA8F /* InterfaceController.swift */,
+				B890D91A1AFBF53B00D7BA8F /* Images.xcassets */,
+				B890D9161AFBF53B00D7BA8F /* Supporting Files */,
+			);
+			path = "StarburstDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B890D9161AFBF53B00D7BA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9171AFBF53B00D7BA8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B890D9221AFBF53B00D7BA8F /* StarburstDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9251AFBF53B00D7BA8F /* Interface.storyboard */,
+				B890D9281AFBF53B00D7BA8F /* Images.xcassets */,
+				B890D9231AFBF53B00D7BA8F /* Supporting Files */,
+			);
+			path = "StarburstDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		B890D9231AFBF53B00D7BA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B890D9241AFBF53B00D7BA8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B890D8EA1AFBF52200D7BA8F /* StarburstDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B890D90A1AFBF52200D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo" */;
+			buildPhases = (
+				B890D8E71AFBF52200D7BA8F /* Sources */,
+				B890D8E81AFBF52200D7BA8F /* Frameworks */,
+				B890D8E91AFBF52200D7BA8F /* Resources */,
+				B890D9331AFBF53B00D7BA8F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B890D92B1AFBF53B00D7BA8F /* PBXTargetDependency */,
+			);
+			name = StarburstDemo;
+			productName = StarburstDemo;
+			productReference = B890D8EB1AFBF52200D7BA8F /* StarburstDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B890D8FF1AFBF52200D7BA8F /* StarburstDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B890D90D1AFBF52200D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemoTests" */;
+			buildPhases = (
+				B890D8FC1AFBF52200D7BA8F /* Sources */,
+				B890D8FD1AFBF52200D7BA8F /* Frameworks */,
+				B890D8FE1AFBF52200D7BA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B890D9021AFBF52200D7BA8F /* PBXTargetDependency */,
+			);
+			name = StarburstDemoTests;
+			productName = StarburstDemoTests;
+			productReference = B890D9001AFBF52200D7BA8F /* StarburstDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B890D9131AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B890D9301AFBF53B00D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo WatchKit Extension" */;
+			buildPhases = (
+				B890D9101AFBF53B00D7BA8F /* Sources */,
+				B890D9111AFBF53B00D7BA8F /* Frameworks */,
+				B890D9121AFBF53B00D7BA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B890D9211AFBF53B00D7BA8F /* PBXTargetDependency */,
+			);
+			name = "StarburstDemo WatchKit Extension";
+			productName = "StarburstDemo WatchKit Extension";
+			productReference = B890D9141AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B890D91D1AFBF53B00D7BA8F /* StarburstDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B890D92D1AFBF53B00D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo WatchKit App" */;
+			buildPhases = (
+				B890D91C1AFBF53B00D7BA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarburstDemo WatchKit App";
+			productName = "StarburstDemo WatchKit App";
+			productReference = B890D91E1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B890D8E31AFBF52200D7BA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MBX;
+				TargetAttributes = {
+					B890D8EA1AFBF52200D7BA8F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B890D8FF1AFBF52200D7BA8F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B890D8EA1AFBF52200D7BA8F;
+					};
+					B890D9131AFBF53B00D7BA8F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B890D91D1AFBF53B00D7BA8F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B890D8E61AFBF52200D7BA8F /* Build configuration list for PBXProject "StarburstDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B890D8E21AFBF52200D7BA8F;
+			productRefGroup = B890D8EC1AFBF52200D7BA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B890D8EA1AFBF52200D7BA8F /* StarburstDemo */,
+				B890D8FF1AFBF52200D7BA8F /* StarburstDemoTests */,
+				B890D9131AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension */,
+				B890D91D1AFBF53B00D7BA8F /* StarburstDemo WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B890D8E91AFBF52200D7BA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D8F61AFBF52200D7BA8F /* Main.storyboard in Resources */,
+				B890D8FB1AFBF52200D7BA8F /* LaunchScreen.xib in Resources */,
+				B890D8F81AFBF52200D7BA8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D8FE1AFBF52200D7BA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D9121AFBF53B00D7BA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D91F1AFBF53B00D7BA8F /* StarburstDemo WatchKit App.app in Resources */,
+				B890D91B1AFBF53B00D7BA8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D91C1AFBF53B00D7BA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D9271AFBF53B00D7BA8F /* Interface.storyboard in Resources */,
+				B890D9291AFBF53B00D7BA8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B890D8E71AFBF52200D7BA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D8F31AFBF52200D7BA8F /* ViewController.swift in Sources */,
+				B890D8F11AFBF52200D7BA8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D8FC1AFBF52200D7BA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D9071AFBF52200D7BA8F /* StarburstDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890D9101AFBF53B00D7BA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B890D9191AFBF53B00D7BA8F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B890D9021AFBF52200D7BA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B890D8EA1AFBF52200D7BA8F /* StarburstDemo */;
+			targetProxy = B890D9011AFBF52200D7BA8F /* PBXContainerItemProxy */;
+		};
+		B890D9211AFBF53B00D7BA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B890D91D1AFBF53B00D7BA8F /* StarburstDemo WatchKit App */;
+			targetProxy = B890D9201AFBF53B00D7BA8F /* PBXContainerItemProxy */;
+		};
+		B890D92B1AFBF53B00D7BA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B890D9131AFBF53B00D7BA8F /* StarburstDemo WatchKit Extension */;
+			targetProxy = B890D92A1AFBF53B00D7BA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B890D8F41AFBF52200D7BA8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B890D8F51AFBF52200D7BA8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B890D8F91AFBF52200D7BA8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B890D8FA1AFBF52200D7BA8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B890D9251AFBF53B00D7BA8F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B890D9261AFBF53B00D7BA8F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B890D9081AFBF52200D7BA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B890D9091AFBF52200D7BA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B890D90B1AFBF52200D7BA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarburstDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B890D90C1AFBF52200D7BA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarburstDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B890D90E1AFBF52200D7BA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarburstDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarburstDemo.app/StarburstDemo";
+			};
+			name = Debug;
+		};
+		B890D90F1AFBF52200D7BA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarburstDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarburstDemo.app/StarburstDemo";
+			};
+			name = Release;
+		};
+		B890D92E1AFBF53B00D7BA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = StarburstDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "StarburstDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B890D92F1AFBF53B00D7BA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = StarburstDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "StarburstDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B890D9311AFBF53B00D7BA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StarburstDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B890D9321AFBF53B00D7BA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StarburstDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B890D8E61AFBF52200D7BA8F /* Build configuration list for PBXProject "StarburstDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B890D9081AFBF52200D7BA8F /* Debug */,
+				B890D9091AFBF52200D7BA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B890D90A1AFBF52200D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B890D90B1AFBF52200D7BA8F /* Debug */,
+				B890D90C1AFBF52200D7BA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B890D90D1AFBF52200D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B890D90E1AFBF52200D7BA8F /* Debug */,
+				B890D90F1AFBF52200D7BA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B890D92D1AFBF53B00D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B890D92E1AFBF53B00D7BA8F /* Debug */,
+				B890D92F1AFBF53B00D7BA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B890D9301AFBF53B00D7BA8F /* Build configuration list for PBXNativeTarget "StarburstDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B890D9311AFBF53B00D7BA8F /* Debug */,
+				B890D9321AFBF53B00D7BA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B890D8E31AFBF52200D7BA8F /* Project object */;
+}
