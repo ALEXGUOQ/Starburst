@@ -51,7 +51,7 @@ Recommended duration: 10s
 ##Instructions
 To create image based animations for your Apple Watch app, first drag your desired image sequence folder into your WatchKit App's Images.xcassets. Then create a `WKInterface` image object in your storyboard and set the image name to the image sequence name without any numbers.
 
-For example, if you want to use the disperse animation, set your image file to: "disperse_.".
+For example, if you want to use the disperse animation, set your image file to: "disperse_". (You should see a blue question mark in your image box. This is normal.)
 
 Then set its respective duration, as recommended above.
 
